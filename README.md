@@ -1,3 +1,3 @@
-# Solutions to to exercises 3.1 - 3.22
+# CI for the Phonebook App
 
-- You can find the application hosted at heroku [here](https://arcane-coast-09069.herokuapp.com/)
+https://secure-sands-71319.herokuapp.com/
