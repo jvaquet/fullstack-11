@@ -1,5 +1,7 @@
 import axios from 'axios'
-const baseUrl = `http://localhost:${process.env.PORT}/api/persons`
+const baseUrl = '/api/persons'
+
+console.log(baseUrl)
 
 const getAll = () => {
   return axios.get(baseUrl)
