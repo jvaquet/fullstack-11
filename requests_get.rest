@@ -1,0 +1,11 @@
+### Get Info
+GET http://localhost:3001/api/info
+
+### Get all persons
+GET http://localhost:3001/api/persons
+
+### Get exisiting person
+GET http://localhost:3001/api/persons/600ae175f57b475f122c35b5
+
+### Get non existent person
+GET http://localhost:3001/api/persons/1

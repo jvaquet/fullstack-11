@@ -1,0 +1,24 @@
+### Add a person
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "The real me",
+  "number": "42-42-1337"
+}
+
+### Add a person (no name)
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "number": "42-42-1337"
+}
+
+### Add a person (no number)
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "You"
+}
