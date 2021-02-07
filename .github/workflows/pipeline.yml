@@ -31,9 +31,6 @@ jobs:
           heroku_app_name: "secure-sands-71319"
           heroku_email: ${{secrets.HEROKU_EMAIL}}
           remote_branch: master
-          healthcheck: "https://secure-sands-71319.herokuapp.com/health"
-          checkstring: "ok"
-          rollbackonhealthcheckfailed: true
       - uses: actions/checkout@v2
       - name: Bump version and push tag
         if: ${{ github.event_name == 'push' && !contains(join(github.event.commits.*.message, ', '), '#skip') }}
