@@ -84,7 +84,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Phonebook</h2>
+      <h2>My Friend's Phone Numbers!</h2>
       <Message message={msg}/>
       <ErrorMessage message={msgError}/>
       <Filter filter={filter} setFilter={setFilter} />
